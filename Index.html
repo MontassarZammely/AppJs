@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Millionaires App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Fake Millionaires Application</h1>
+        <form>
+            <div class="button-container">
+                <button type="button" onclick="addFakeMillionaire()">Ajouter un millionnaire🧑 </button>
+                <br>
+                <button type="button" onclick="doubleMoney()">Multiplier la fortune par 2 💰 </button>
+                <br>
+                <button type="button" onclick="toggleShowOnlyMillionaires()">Show Only Millionaires 🧑 </button>
+                <br>
+                <button type="button" onclick="calculateTotalFortune()">Calculer la somme des fortunes 💸 </button>
+                <br>
+                <button type="button" onclick="sortMillionairesByMoney()">Trier par fortune ⬇️</button>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div id="result-container">
+                <div>
+                    <p id="name-label" class="Person">Person:</p>
+                    <p id="name-value"></p>
+                </div>
+                <div>
+                    <p id="fortune-label" class="Person">Wealth:</p>
+                    <p id="fortune-value"></p>
+                </div>
+
+                <hr>
+
+                <p id="total-fortune"> Total du fortune des millionaires :  </p>
+                <ul id="millionaires-list"></ul>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

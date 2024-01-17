@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 300px;
+    margin: 0 10px; 
+}
+
+#app {
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(208, 208, 222);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+}
+.Person {
+    font-weight: bold ;
+    color: blueviolet;
+}
+
+#result-container {
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 20px; 
+}
+
+#result-container div {
+    margin-bottom: 10px;
+}
+
+#result-container p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#fortune-value {
+    margin-left: auto; 
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
